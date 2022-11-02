@@ -12,7 +12,7 @@ class CurrencyConverter:
     def get_values():
         text = "Доступные валюты: \n"
         for key in keys.keys():
-            text += f"{key} | {keys[key]}\n"
+            text += f"{key}\n"
         return text
 
     @staticmethod
